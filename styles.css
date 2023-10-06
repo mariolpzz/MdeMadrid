@@ -73,6 +73,7 @@ nav img {
 .hero .primary img {
     object-fit: cover;
     height: 70%;
+    border-radius: .2rem;
 }
 
 .hero .secondary {
@@ -89,9 +90,10 @@ nav img {
 }
 
 .hero .secondary .post img {
-    height: 50%;
+    height: 55%;
     width: 100%;
     object-fit: cover;
+    border-radius: .2rem;
 }
 
 .divider {
