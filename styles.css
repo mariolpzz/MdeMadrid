@@ -123,6 +123,7 @@ nav img {
 .new img {
     width: 35%;
     object-fit: cover;
+    border-radius: .2rem;
 }
 
 .spotyPlaylist {
