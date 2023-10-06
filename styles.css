@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito&family=Noto+Sans+JP&family=Noto+Sans+SC&display=swap');
+
+html {
+    scroll-behavior: smooth;
+    width: 100%;
+    
+}
+
+body {
+    font-family: 'Gabarito', cursive;
+    background-color: black;
+    margin: 0;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    
+}
+
+nav {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    padding: 1rem;
+    background-color: rgb(19, 19, 19);
+    color: white;
+    position: fixed;
+    width: 100%; /* Cambiado de 100vw a 100% */
+    z-index: 999;
+    background-image: url("media/backnav.jpg");
+    background-size: cover;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: .8rem;
+    font-weight: bold;
+}
+
+nav img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    background-color: #4db4b1;
+    border-radius: 50%;
+    position: absolute;
+    transform: translateY(1.2rem);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
+}
+
+.hero {
+    margin-top: 3.5rem;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-evenly;
+    height: 77vw;
+    width: 100%;
+    overflow-y: hidden; /* Evita la aparición de la barra de desplazamiento horizontal */
+    position: relative;
+    font-size: 2vw;
+    padding-bottom: 1rem;
+}
+
+.hero .primary {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    max-width: 70%;
+    height: 100%;
+    overflow-y: hidden;
+}
+
+.hero .primary img {
+    object-fit: cover;
+    height: 70%;
+}
+
+.hero .secondary {
+    display: flex;
+    flex-direction: column;
+    padding-right: 2rem;
+    padding-top: 2rem;
+    width: 65%; /* Cambiado de width a max-width */
+}
+
+.hero .secondary .post {
+    height: 50%;
+    width: 100%;
+}
+
+.hero .secondary .post img {
+    height: 50%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.divider {
+    text-align: center;
+}
+
+.divider img {
+    width: 90vw;
+    height: 30px;
+}
+
+.news {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.new {
+    display: flex;
+    gap: 1rem;
+    height: fit-content;
+    font-size: 2.5vw;
+    align-items: end;
+}
+
+.new img {
+    width: 35%;
+    object-fit: cover;
+}
+
+.spotyPlaylist {
+    padding-left: 1.7rem;
+    padding-right: 1.7rem;
+
+}
+
+footer {
+    background-color: #ff6600;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
