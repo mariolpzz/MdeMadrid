@@ -1,0 +1,252 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+
+html {
+    scroll-behavior: smooth;
+    width: 100%;
+}
+
+body {
+    font-family: 'Gabarito', 'Roboto', 'Shrikhand', cursive;
+    background-color: black;
+    margin: 0;
+    display: flex;
+    color: white;
+    flex-direction: column;
+}
+
+nav {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    padding: 1rem;
+    background-color: rgb(19, 19, 19);
+    color: white;
+    position: fixed;
+    width: 100%; /* Cambiado de 100vw a 100% */
+    z-index: 999;
+    /*background-image: url("media/backnav.jpg"); */
+    background-size: cover;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: bold;
+    transition: all .3s;
+}
+
+nav a:hover {
+    color: #e37224;
+}
+
+nav img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    background-color: #4db4b1;
+    border-radius: 50%;
+    position: absolute;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
+}
+
+.portada {
+    padding-top: 2rem;
+}
+
+.carouselContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.5rem;
+    padding-top: 2rem;
+    font-size: 3vw;
+}
+
+.imgsCarousel {
+    display: flex;
+    gap: 4rem;
+    position: relative;
+    transform-style: preserve-3d;
+    animation: animate 20s infinite;
+    height: 37vw;
+
+}
+
+@keyframes animate {
+    0% {
+        transform: perspective(1000px) rotateY(0deg);
+    }
+    100% {
+        transform: perspective(1000px) rotateY(360deg);
+    }
+}
+
+.imgsCarousel > span {
+    position: absolute;
+    top: 13vw;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform-origin: center;
+    transform-style: preserve-3d;
+    transform: rotateY(calc(var(--i) * 30deg)) translateZ(30vw);
+}
+
+.imgsCarousel img {
+    border-radius: .5rem;
+    height: 13vw;
+    width: 10vw;
+    object-fit: cover;
+    backface-visibility: hidden;
+}
+
+.slogan img {
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+    width: 100%;
+
+}
+
+.loUltimo h2{
+    display: flex;
+    justify-content: center;
+}
+
+.novedades {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.novedad {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.novedad img {
+    width: 80%;
+}
+
+.Podcast {
+    margin-top: 7vw;
+    background-color: #4db4b1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.podcastText {
+    font-size: 3vw;
+    color: black;
+}
+
+.podcastText h2 {
+    font-size:7vw;
+}
+
+.Podcast img {
+    position: relative;
+    bottom: -30px;
+    height: 100%;
+}
+
+.cancionDeLaSemana {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5vw;
+    margin-bottom: 7vw;
+    align-items: center;
+    font-size: 3vw;
+    color: #d93e32;
+}
+
+.coverCancionDeLaSemana {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 5vw;
+}
+
+.coverCancionDeLaSemana img {
+    width: 30vw;
+    height: 30vw;
+    object-fit: cover;
+}
+
+.musicQuote img{
+   width: 100%;
+}
+
+.newReleases {
+    margin-top: 7vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 7vw;
+}
+
+.newReleases h2 {
+    font-size: 4vw;
+    line-height: 0;
+    margin-bottom: 7rem;
+}
+
+.newReleases p {
+    width: 50%;
+    margin-bottom: 3rem;
+}
+
+.newReleasesCovers {
+    display: flex;
+    gap: 2rem;
+}
+
+.newReleasesCovers img {
+    width: 20vw;
+    height: 20vw;
+    object-fit: cover;
+    border: white 3px solid;
+    border-radius: .4rem;
+}
+
+.cover {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #d93e32;
+}
+
+.algo {
+    background-color: #4db4b1;
+    text-align: center;
+    color: #d93e32;
+    font-size: 4vw;
+    padding: 3vw;
+}
+
+.playlistSpoty {
+    display: flex;
+    flex-direction: column;
+    color: #d93e32;
+    align-items: center;
+    margin-top: 7vw;
+    margin-bottom: 7vw;
+    font-size: 3vw;
+}
+
+.playlists {
+    display: flex;
+    gap: 2rem;
+}
+
+footer {
+    margin-top: 2rem;
+    background-color: #d93e32;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding: 3rem;
+}
