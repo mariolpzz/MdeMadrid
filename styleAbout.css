@@ -26,7 +26,7 @@ nav {
     position: fixed;
     width: 100%; /* Cambiado de 100vw a 100% */
     z-index: 999;
-    /*background-image: url("media/backnav.jpg"); */
+    background-image: url("media/navBg.jpeg"); 
     background-size: cover;
 }
 
