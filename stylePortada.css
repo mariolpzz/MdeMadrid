@@ -165,12 +165,21 @@ nav img {
     font-size: 3vw !important;
     color: #d93e32 !important;
 }
+.cancionDeLaSemana h1 {
+    font-size: 4vw;
+}
 
 .coverCancionDeLaSemana {
     display: flex !important;
     justify-content: space-evenly !important;
+    align-items: center;
     gap: 1vw !important;
     margin-top: 4rem;
+    width: 70%;
+}
+
+.cancionDeLaSemanaText {
+    width: 40%;
 }
 
 .coverCancionDeLaSemana img {
@@ -240,6 +249,11 @@ nav img {
     margin-top: 5vw;
     margin-bottom: 7vw;
     font-size: 3vw;
+}
+
+.playlistSpoty h1 {
+    margin-bottom: 5vw;
+    font-size: 4vw;
 }
 
 .playlists {
