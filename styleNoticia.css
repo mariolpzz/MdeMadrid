@@ -1,0 +1,76 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+
+html {
+    scroll-behavior: smooth;
+    width: 100%;
+}
+
+body {
+    font-family: 'Gabarito', 'Roboto', 'Shrikhand', cursive;
+    background-color: black;
+    margin: 0;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    padding: 1rem;
+    background-color: rgb(19, 19, 19);
+    color: white;
+    position: fixed;
+    width: 100%; /* Cambiado de 100vw a 100% */
+    z-index: 999;
+    background-image: url("media/navBg.svg"); 
+    background-size: cover;
+    box-shadow: 0px 4px 20px rgb(0, 0, 0);
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: bold;
+    transition: all .3s;
+}
+
+nav a:hover {
+    color: black;
+}
+
+nav img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    background-color: #4db4b1;
+    border-radius: 50%;
+    position: absolute;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
+}
+
+.noticia {
+    margin-top: 2vw;
+    font-size: 1.5vw;
+    width: 70%;
+}
+
+.noticia a {
+    text-decoration: none;
+    color: #e37224;
+    transition: all 0.4s;
+}
+
+.noticia a:hover {
+    color: #4d59b4;
+}
+
+.noticia img {
+    width: 100%;
+    border-radius: 1rem;
+}
