@@ -52,10 +52,11 @@ nav img {
     border-radius: 50%;
     position: absolute;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
+    margin-left: 1rem;
 }
 
 .noticia {
-    margin-top: 2vw;
+    margin-top: 3rem;
     font-size: 1.8vw;
     width: 70%;
     line-height: 4rem;
