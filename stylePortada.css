@@ -213,7 +213,8 @@ nav img {
 }
 
 .newReleases h2 {
-    font-size: 4vw;
+    margin-top: 1vw;
+    font-size: 2.5vw;
 }
 
 .newReleases p {
