@@ -54,7 +54,7 @@ nav img {
 }
 
 .articulo {
-    background-image: url(media/concert.jpg);
+    background-image: url(media/ArticuloMDMadridYellow.png);
     margin-top: 2rem;
     background-size: cover;
     padding-left: 5rem;
@@ -62,10 +62,40 @@ nav img {
     padding-top: 7rem;
     padding-bottom: 7rem;
     font-size: 1.5vw;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
 }
 
 .articulo h1 {
-    width: 30%;
+    width: 50%;
+}
+
+.articulo img {
+    width: 25%;
+    height: 17vw;
+    right: 100px;
+    top: 170px;
+    border-radius: 1rem;
+    object-fit: cover;
+    border: 4px solid white;
+}
+
+.articulo a {
+    text-decoration: none;
+    color: rgb(149, 149, 149);
+}
+
+#marron {
+    background-image: url(media/ArticuloMDMadridBrown.png);
+}
+
+#rojo {
+    background-image: url(media/ArticuloMDMadridRed.png);
+}
+
+#redPink {
+    background-image: url(media/ArticuloMDMadridRedPink.png);
 }
 
 .articulo-color {
