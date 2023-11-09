@@ -65,6 +65,10 @@ nav img {
     align-items: center;
 }
 
+.noticia h1 {
+    align-self: flex-start;
+}
+
 hr {
     width: 100%;
 }
