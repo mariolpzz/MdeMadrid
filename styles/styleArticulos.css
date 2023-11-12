@@ -54,7 +54,7 @@ nav img {
 }
 
 .articulo {
-    background-image: url(media/ArticuloMDMadridYellow.png);
+    background-image: url(../media/ArticuloMDMadridYellow.png);
     margin-top: 2rem;
     background-size: cover;
     padding-left: 5rem;
@@ -87,15 +87,19 @@ nav img {
 }
 
 #marron {
-    background-image: url(media/ArticuloMDMadridBrown.png);
+    background-image: url(../media/ArticuloMDMadridBrown.png);
 }
 
 #rojo {
-    background-image: url(media/ArticuloMDMadridRed.png);
+    background-image: url(../media/ArticuloMDMadridRed.png);
 }
 
 #redPink {
-    background-image: url(media/ArticuloMDMadridRedPink.png);
+    background-image: url(../media/ArticuloMDMadridRedPink.png);
+}
+
+#blue {
+    background-image: url(../media/ArticuloMDMadridBlue.png);
 }
 
 .articulo-color {
