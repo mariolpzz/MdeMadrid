@@ -102,6 +102,10 @@ nav img {
     background-image: url(../media/ArticuloMDMadridBlue.png);
 }
 
+#celeste {
+    background-image: url(../media/ArticuloMDMadridCeleste.jpg);
+}
+
 .articulo-color {
     background-color: #4db4b1;
     margin-top: 2rem;
