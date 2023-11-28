@@ -117,3 +117,19 @@ footer {
     color: rgb(0, 0, 0);
     padding: 3rem;
 }
+
+.socials {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+footer a {
+    color: black;
+}
+
+footer a:hover {
+    color: black;
+}
