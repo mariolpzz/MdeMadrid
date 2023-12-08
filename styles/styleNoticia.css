@@ -8,9 +8,8 @@ html {
 }
 
 body {
-    font-family: 'Gabarito', 'Roboto', 'Shrikhand', cursive;
+    font-family:'Roboto', 'Shrikhand', cursive;
     background-color: black;
-    margin: 0;
     display: flex;
     color: white;
     flex-direction: column;
@@ -54,6 +53,7 @@ nav img {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
     margin-left: 1rem;
 }
+
 
 .noticia {
     margin-top: 3rem;
