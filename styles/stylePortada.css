@@ -240,6 +240,12 @@ nav img {
     flex-direction: column;
     align-items: center;
     color: #d93e32;
+    width: 30%;
+}
+
+.cover h2 {
+    width: 80%;
+    text-align: center;
 }
 
 .algo {

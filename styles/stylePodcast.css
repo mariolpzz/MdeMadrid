@@ -125,6 +125,22 @@ footer {
     padding: 3rem;
 }
 
+.socials {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+footer a {
+    color: black;
+}
+
+footer a:hover {
+    color: black;
+}
+
 .proximamente {
     display: flex;
     align-items: center;
@@ -143,4 +159,83 @@ footer {
     font-size: 4vw;
     transform: rotateZ(50);
     font-weight: 1000;
+}
+
+
+.entrevistas {
+    margin: 7rem;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.entrevista {
+    position: relative;
+    background-image: url(../media/EntrevistaBG.png);
+    border-radius: 20px;
+    padding-top: 2rem;
+    padding-left: 5rem;
+    display: flex;
+    justify-content: space-between;
+    font-size: 2vw;
+    min-height: 30rem;
+}
+
+
+.entrevista a {
+    font-size: 1.4vw;
+}
+
+.entrevista img {
+    width: 700px !important;
+    align-self: flex-end;
+}
+
+
+.learnMore {
+    position: absolute;
+    bottom: 3rem;
+    text-decoration: none;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+}
+
+#red {
+    background-image: url(../media/EntrevistaBGRed.png);
+}
+
+#black {
+    background-image: url(../media/EntrevistaBGBlack.png);
+}
+
+#white {
+    background-image: url(../media/EntrevistaBGWhite.png);
+}
+
+#blue {
+    background-image: url(../media/EntrevistaBGBlue.png);
+}
+
+#green {
+    background-image: url(../media/EntrevistaBGGreen.png);
+    min-height: 35rem;
+}
+
+
+.learnMore::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(255, 255, 255);
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.learnMore:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
 }

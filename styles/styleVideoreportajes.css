@@ -54,7 +54,7 @@ nav img {
 }
 
 .barrios {
-    background-image: url(media/madrid-map.jpg);
+    background-image: url(../media/madrid-map.jpg);
     width: 100%;
     display: flex;
     justify-content: space-evenly;
@@ -63,7 +63,7 @@ nav img {
 }
 
 .barrio {
-    background-image: url(media/malasaña.jpg);
+    background-image: url(../media/malasaña.jpg);
     object-fit: cover;
     border-radius: 2rem;
     width: 15vw;
@@ -72,6 +72,10 @@ nav img {
     padding-top: 15rem;
     padding-bottom: 0.1rem;
     box-shadow: 10px 10px 20px rgb(0, 0, 0);
+}
+
+.barrio h2 {
+    line-height: 1;
 }
 
 .barrioInfo a {
@@ -106,7 +110,7 @@ nav img {
     justify-content: center;
     margin: auto;
     height: 100vh;
-    background-image: url(media/madrid-map.jpg);
+    background-image: url(../media/madrid-map.jpg);
     background-size: cover;
     width: 100%;
 }
